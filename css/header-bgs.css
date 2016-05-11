@@ -1,0 +1,11 @@
+#home-page .hero-image .bg-image{
+  background-image: url('../about/IMG_2399.jpg');
+}
+
+#about .hero-image .bg-image{
+  background-image: url('../about/IMG_2415.jpg');
+}
+
+#the-hague .hero-image .bg-image{
+  background-image: url('../cities/the-hague/DSC_0472.jpg');
+}

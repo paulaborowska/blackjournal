@@ -1,0 +1,144 @@
+@media screen and (min-width: 480px) {
+    body {
+        /*background-color: lightgreen;*/
+    }
+}
+
+
+body{
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.col1{
+  width: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col2{
+  width: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col3{
+  width: 240px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col4{
+  width: 330px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col5{
+  width: 420px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col6{
+  width: 510px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col7{
+  width: 600px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col8{
+  width: 690px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col9{
+  width: 780px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col10{
+  width: 870px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col11{
+  width: 960px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.col12{
+  width: 1050px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.col13{
+  width: 1140px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.col14, .full-width, section{
+  width: 1230px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: block;
+}
+
+section{
+  clear: both;
+}
+
+.only{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.no-left-margin{
+  margin-left: 0;
+}
+.no-right-margin{
+  margin-right: 0;
+}
+.no-margins{
+  margin-left: 0;
+  margin-right: 0;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.centered{
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
