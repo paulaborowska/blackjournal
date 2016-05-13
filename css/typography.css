@@ -1,39 +1,37 @@
-@import url(https://fast.fonts.net/cssapi/0d68696d-b196-4505-872e-45c6f2cca7b6.css);
-
+@import url('https://fast.fonts.net/cssapi/0d68696d-b196-4505-872e-45c6f2cca7b6.css');
 body {
-    font-size: 15px;
-    line-height: 30px;
-
-    font-family:  'Avenir W01', "Helvetica Neue", sans-serif;
-    font-weight: 400;
-
-    color: #333333;
-
-    -webkit-font-smoothing: antialiased !important;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'Avenir W01', "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  -webkit-font-smoothing: antialiased !important;
 }
-
-a:link {color: #7FDD98; font-weight: 400; text-decoration: none;}
-a:visited {color: #7FDD98; text-decoration: none;}
-a:hover {color: #7BD492; text-decoration: underline; }
-a.active {color: #7BD492; text-decoration: underline;}
-
-p,
-ul,
-ol,
-dl,
-blockquote,
-pre,
-td,
-th,
-textarea,
-caption {
-
+a:link {
+  color: #7FDD98;
+  font-weight: 400;
+  text-decoration: none;
 }
-p{
-  max-width: 870px; /* .col10 */
+a:visited {
+  color: #7FDD98;
+  text-decoration: none;
+}
+a:hover {
+  color: #7BD492;
+  text-decoration: underline;
+}
+a.active {
+  color: #7BD492;
+  text-decoration: underline;
+}
+p {
+  max-width: 870px;
+  /* .col10 */
   margin-bottom: 30px;
-  margin-left: auto;  /* .centered */
-  margin-right: auto;  /* .centered */
+  margin-left: auto;
+  /* .centered */
+  margin-right: auto;
+  /* .centered */
   padding: 0 30px;
 }
 h1,
@@ -43,25 +41,16 @@ h1,
   line-height: 45px;
   text-shadow: 0px 2px 12px #000;
 }
-h1.subtitle{
+h1.subtitle {
   margin: 0;
 }
-h2,
-.h2-like {
-
-}
-h3,
-.h3-like {
-
-}
-.subtitle{
+.subtitle {
   font-family: 'Andale Mono W01', monospace;
   font-size: 16px;
   text-align: center;
   display: block;
 }
-
-.mono{
+.mono {
   font-family: 'Andale Mono W01', monospace;
   font-size: 16px;
 }
@@ -86,15 +75,13 @@ dl:last-child,
 blockquote:last-child,
 pre:last-child,
 table:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
-
-
 /* avoid supp margin on nested elements */
 li p,
 li ul {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* you shall not pass */
 textarea,
@@ -106,22 +93,22 @@ pre,
 samp,
 div,
 p {
-    word-wrap: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -o-hyphens: auto;
-    hyphens: auto;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
 }
 code,
 pre,
 samp {
-    white-space: pre-wrap;
-    font-family: 'Andale Mono W01', courier, monospace;
+  white-space: pre-wrap;
+  font-family: 'Andale Mono W01', courier, monospace;
 }
 code {
-    line-height: 1;
+  line-height: 1;
 }
 table {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }

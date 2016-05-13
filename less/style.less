@@ -1,14 +1,18 @@
-body {
+@import "vars";
+
+body{
   box-sizing: border-box;
 }
+
 /* NAVIGATION */
-#site-navigation {
+
+#site-navigation{
   position: relative;
-  margin-top: 0;
+  margin-top:0;
   height: 60px;
   /*padding-left: 30px;*/
 }
-#site-navigation #logo {
+#site-navigation #logo{
   font-family: 'Andale Mono W01', monospace;
   font-size: 16px;
   display: inline-block;
@@ -16,19 +20,15 @@ body {
   margin-bottom: 15px;
   padding-left: 30px;
 }
-#site-navigation #logo a {
+#site-navigation #logo a{
   text-align: center;
   display: block;
 }
-#site-navigation #logo a:link {
-  color: #333;
-}
-#site-navigation #logo a:visited {
-  color: #333;
-}
-#site-navigation #logo a:hover {
-  text-decoration: none;
-}
+#site-navigation #logo a:link {color: #333;}
+#site-navigation #logo a:visited {color: #333;}
+#site-navigation #logo a:hover {text-decoration: none;}
+#site-navigation #logo a.active {}
+
 #site-navigation nav {
   position: absolute;
   display: inline-block;
@@ -38,34 +38,32 @@ body {
   margin-bottom: 15px;
   padding-right: 30px;
 }
-#site-navigation nav ul {
+#site-navigation nav ul{
   right: 0;
   display: inline-block;
 }
-#site-navigation nav ul li {
+#site-navigation nav ul li{
   list-style: none;
   display: inline-block;
 }
-#site-navigation nav ul li a {
+#site-navigation nav ul li a{
   padding: 15px 0 15px 15px;
 }
-#site-navigation nav ul li a:link {
-  color: #333;
+#site-navigation nav ul li a:last-child{
 }
-#site-navigation nav ul li a:visited {
-  color: #333;
-}
-#site-navigation nav ul li a:hover {
-  color: #7BD492;
-  text-decoration: none;
-}
+#site-navigation nav ul li a:link {color: #333;}
+#site-navigation nav ul li a:visited {color: #333;}
+#site-navigation nav ul li a:hover {color: #7BD492; text-decoration: none;}
+#site-navigation nav ul li a.active {}
+
 @media screen and (max-width: 510px) {
-  #site-navigation {
+  #site-navigation{
     position: static;
     margin-top: 0;
     height: 90px;
   }
-  #site-navigation #logo {
+
+  #site-navigation #logo{
     display: block;
     padding-left: 0;
   }
@@ -75,59 +73,68 @@ body {
     display: block;
     padding-right: 0;
   }
-  #site-navigation nav ul {
+  #site-navigation nav ul{
     display: inline-block;
   }
-  #site-navigation nav ul li a:last-child {
+  #site-navigation nav ul li{
+
+  }
+  #site-navigation nav ul li a{
+  }
+  #site-navigation nav ul li a:last-child{
     padding-right: 0;
   }
 }
+
 /* HERO HEADER */
-.hero-image {
+.hero-image{
   box-sizing: border-box;
   width: 100%;
   padding: 0 30px;
   min-height: 300px;
+
 }
-.hero-image .bg-image {
+.hero-image .bg-image{
   /*background-image: url('../b.jpg');*/
   background-position: center center;
   background-size: cover;
-  height: 330px;
-  /* TBD! */
+  height: 330px; /* TBD! */
   width: auto;
 }
-.hero-image h1 {
+.hero-image h1{
   width: 100%;
   display: block;
   text-align: center;
   color: #fff;
   text-shadow: 0px 2px 12px #000;
+
   padding-top: 120px;
 }
-.hero-image h2 {
+.hero-image h2{
   display: block;
   width: 100%;
   text-align: center;
   color: #fff;
   text-shadow: 0px 2px 12px #000;
 }
+
 @media screen and (min-width: 570px) {
-  .hero-image {
+  .hero-image{
     min-height: 570px;
   }
-  .hero-image .bg-image {
+  .hero-image .bg-image{
     min-height: 570px;
   }
-  .hero-image .bg-image h1 {
+  .hero-image .bg-image h1{
     padding-top: 420px;
   }
 }
+
 @media screen and (min-width: 1230px) {
-  .move-down {
+  .move-down{
     margin-top: 600px;
   }
-  .hero-image {
+  .hero-image{
     min-height: 570px;
     position: absolute;
     top: 60px;
@@ -135,13 +142,21 @@ body {
     width: 100%;
     padding: 0 30px;
   }
-  .hero-image .bg-image {
+  .hero-image .bg-image{
     min-height: 570px;
   }
-  .hero-image .bg-image h1 {
+  .hero-image .bg-image h1{
     padding-top: 420px;
   }
 }
+
+
+
 /* inputs */
-/* Firefox 18- */
-/* Firefox 19+ */
+
+input[type="email"], input[type="text"]{}
+
+::-webkit-input-placeholder {}
+:-moz-placeholder {}/* Firefox 18- */
+::-moz-placeholder {}/* Firefox 19+ */
+:-ms-input-placeholder {}
