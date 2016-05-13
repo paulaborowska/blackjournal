@@ -1,15 +1,19 @@
+/* tablet vertical */
+/* small laptop / ipad horizontal */
+/* laptop / desktop full-screen browser */
+/* 'venti' desktop full-screen browser */
+/* What are you, on a imperial star destroyer? */
 @import url('https://fast.fonts.net/cssapi/0d68696d-b196-4505-872e-45c6f2cca7b6.css');
 body {
   font-size: 15px;
   line-height: 30px;
-  font-family: 'Avenir W01', "Helvetica Neue", sans-serif;
-  font-weight: 400;
+  font-family: 'fira-sans-2', "comic sans";
+  font-weight: 600;
   color: #333333;
   -webkit-font-smoothing: antialiased !important;
 }
 a:link {
   color: #7FDD98;
-  font-weight: 400;
   text-decoration: none;
 }
 a:visited {
@@ -36,7 +40,7 @@ p {
 }
 h1,
 .h1-like {
-  font-family: 'Andale Mono W01', courier, monospace;
+  font-family: 'fira-sans-2', "comic sans";
   font-size: 40px;
   line-height: 45px;
   text-shadow: 0px 2px 12px #000;
@@ -45,13 +49,13 @@ h1.subtitle {
   margin: 0;
 }
 .subtitle {
-  font-family: 'Andale Mono W01', monospace;
+  font-family: 'fira-sans-2', "comic sans";
   font-size: 16px;
   text-align: center;
   display: block;
 }
 .mono {
-  font-family: 'Andale Mono W01', monospace;
+  font-family: 'fira-sans-2', "comic sans";
   font-size: 16px;
 }
 /* avoid collapsing margins
@@ -104,7 +108,7 @@ code,
 pre,
 samp {
   white-space: pre-wrap;
-  font-family: 'Andale Mono W01', courier, monospace;
+  font-family: 'fira-sans-2', "comic sans";
 }
 code {
   line-height: 1;

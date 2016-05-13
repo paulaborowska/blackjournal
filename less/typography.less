@@ -5,19 +5,17 @@
 body {
     font-size: 15px;
     line-height: 30px;
-
-    font-family:  'Avenir W01', "Helvetica Neue", sans-serif;
-    font-weight: 400;
-
-    color: #333333;
+    font-family:  'fira-sans-2', "comic sans";
+    font-weight: 600;
+    color: @black;
 
     -webkit-font-smoothing: antialiased !important;
 }
 
-a:link {color: #7FDD98; font-weight: 400; text-decoration: none;}
-a:visited {color: #7FDD98; text-decoration: none;}
-a:hover {color: #7BD492; text-decoration: underline; }
-a.active {color: #7BD492; text-decoration: underline;}
+a:link {color: @link-color; text-decoration: none;}
+a:visited {color: @link-color; text-decoration: none;}
+a:hover {color: @link-color-hover; text-decoration: underline; }
+a.active {color: @link-color-hover; text-decoration: underline;}
 
 p,
 ul,
@@ -40,7 +38,7 @@ p{
 }
 h1,
 .h1-like {
-  font-family: 'Andale Mono W01', courier, monospace;
+  font-family: 'fira-sans-2', "comic sans";
   font-size: 40px;
   line-height: 45px;
   text-shadow: 0px 2px 12px #000;
@@ -57,14 +55,14 @@ h3,
 
 }
 .subtitle{
-  font-family: 'Andale Mono W01', monospace;
+  font-family: 'fira-sans-2', "comic sans";
   font-size: 16px;
   text-align: center;
   display: block;
 }
 
 .mono{
-  font-family: 'Andale Mono W01', monospace;
+  font-family: 'fira-sans-2', "comic sans";
   font-size: 16px;
 }
 /* avoid collapsing margins
@@ -119,7 +117,7 @@ code,
 pre,
 samp {
     white-space: pre-wrap;
-    font-family: 'Andale Mono W01', courier, monospace;
+    font-family: 'fira-sans-2', "comic sans";
 }
 code {
     line-height: 1;

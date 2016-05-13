@@ -1,3 +1,8 @@
+/* tablet vertical */
+/* small laptop / ipad horizontal */
+/* laptop / desktop full-screen browser */
+/* 'venti' desktop full-screen browser */
+/* What are you, on a imperial star destroyer? */
 body {
   box-sizing: border-box;
 }
@@ -6,25 +11,36 @@ body {
   position: relative;
   margin-top: 0;
   height: 60px;
-  /*padding-left: 30px;*/
+}
+@media screen and (max-width: 510px) {
+  #site-navigation {
+    position: static;
+    margin-top: 0;
+    height: 90px;
+  }
 }
 #site-navigation #logo {
-  font-family: 'Andale Mono W01', monospace;
   font-size: 16px;
   display: inline-block;
   margin-top: 15px;
   margin-bottom: 15px;
   padding-left: 30px;
 }
+@media screen and (max-width: 510px) {
+  #site-navigation #logo {
+    display: block;
+    padding-left: 0;
+  }
+}
 #site-navigation #logo a {
   text-align: center;
   display: block;
 }
 #site-navigation #logo a:link {
-  color: #333;
+  color: #333333;
 }
 #site-navigation #logo a:visited {
-  color: #333;
+  color: #333333;
 }
 #site-navigation #logo a:hover {
   text-decoration: none;
@@ -38,9 +54,22 @@ body {
   margin-bottom: 15px;
   padding-right: 30px;
 }
+@media screen and (max-width: 510px) {
+  #site-navigation nav {
+    position: static;
+    text-align: center;
+    display: block;
+    padding-right: 0;
+  }
+}
 #site-navigation nav ul {
   right: 0;
   display: inline-block;
+}
+@media screen and (max-width: 510px) {
+  #site-navigation nav ul {
+    display: inline-block;
+  }
 }
 #site-navigation nav ul li {
   list-style: none;
@@ -60,31 +89,12 @@ body {
   text-decoration: none;
 }
 @media screen and (max-width: 510px) {
-  #site-navigation {
-    position: static;
-    margin-top: 0;
-    height: 90px;
-  }
-  #site-navigation #logo {
-    display: block;
-    padding-left: 0;
-  }
-  #site-navigation nav {
-    position: static;
-    text-align: center;
-    display: block;
-    padding-right: 0;
-  }
-  #site-navigation nav ul {
-    display: inline-block;
-  }
   #site-navigation nav ul li a:last-child {
     padding-right: 0;
   }
 }
 /* HERO HEADER */
 .hero-image {
-  box-sizing: border-box;
   width: 100%;
   padding: 0 30px;
   min-height: 300px;
