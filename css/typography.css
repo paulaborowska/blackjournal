@@ -1,6 +1,5 @@
-@import url('https://fast.fonts.net/cssapi/0d68696d-b196-4505-872e-45c6f2cca7b6.css');
 .mono {
-  font-family: "inconsolata", "Courier New", Courier, monospace;
+  font-family: "Andale Mono", "inconsolata", "Courier New", Courier, monospace;
   font-weight: 500;
   font-style: normal;
 }
@@ -58,12 +57,53 @@ h2,
   line-height: 30px;
 }
 .subtitle {
-  font-family: "inconsolata", "Courier New", Courier, monospace;
+  font-family: "Andale Mono", "inconsolata", "Courier New", Courier, monospace;
   font-weight: 500;
   font-style: normal;
   padding: 60px 30px 0;
   text-align: center;
   display: block;
+}
+/* image captions */
+figure {
+  position: relative;
+}
+figure figcaption {
+  font-family: "Andale Mono", "inconsolata", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  bottom: 42px;
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  display: block;
+  text-shadow: 0px 0px 12px #000;
+  right: 0;
+  color: white;
+  line-height: 15px;
+  font-size: 12.5px;
+}
+@media screen and (min-width: 510px) {
+  figure figcaption {
+    bottom: 15px;
+  }
+}
+.link-list ul {
+  padding: 60px 180px;
+}
+.link-list ul li {
+  font-family: "Andale Mono", "inconsolata", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.link-list ul li:last-child {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 /* avoid collapsing margins
 you might need this, depending on your design
