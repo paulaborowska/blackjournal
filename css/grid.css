@@ -1,8 +1,3 @@
-/* tablet vertical */
-/* small laptop / ipad horizontal */
-/* laptop / desktop full-screen browser */
-/* 'venti' desktop full-screen browser */
-/* What are you, on a imperial star destroyer? */
 /* page width */
 #contained {
   max-width: 1230px;
@@ -102,21 +97,6 @@ section {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/*.only{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.no-left-margin{
-  margin-left: 0;
-}
-.no-right-margin{
-  margin-right: 0;
-}
-.no-margins{
-  margin-left: 0;
-  margin-right: 0;
-}*/
 .right {
   float: right;
 }

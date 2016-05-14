@@ -1,8 +1,3 @@
-/* tablet vertical */
-/* small laptop / ipad horizontal */
-/* laptop / desktop full-screen browser */
-/* 'venti' desktop full-screen browser */
-/* What are you, on a imperial star destroyer? */
 body {
   box-sizing: border-box;
 }
@@ -147,7 +142,7 @@ body {
 }
 @media screen and (min-width: 1230px) {
   .move-down {
-    margin-top: 600px;
+    margin-top: 630px;
   }
   .hero-image {
     min-height: 570px;
