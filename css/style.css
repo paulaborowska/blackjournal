@@ -97,7 +97,6 @@ body {
 /* HERO HEADER */
 .hero-image {
   width: 100%;
-  padding: 0 30px;
   min-height: 300px;
 }
 .hero-image .bg-image {
@@ -132,6 +131,7 @@ body {
 @media screen and (min-width: 570px) {
   .hero-image {
     min-height: 570px;
+    padding: 0 30px;
   }
   .hero-image .bg-image {
     min-height: 570px;

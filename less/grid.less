@@ -20,36 +20,38 @@ section{
 
 /* 2 photo split */
 .no-split{
-  padding: 0 30px;
+    @media screen and (min-width: 510px) {
+      padding: 0 30px;
+  }
 }
 .two-split{
   display: block;
   clear: both;
 }
-.two-split img{
+.two-split figure{
   width: 100%;
   height: auto;
   display: block;
   vertical-align: top;
+  padding-bottom: 30px;
 }
 
+
 @media screen and (min-width: 510px) {
-  .two-split img, .two-split p{
+  .two-split figure, .two-split p{
     padding: 0;
     width: 50%;
     height: auto;
     display: inline-block;
-
   }
-  .two-split img:first-child, .two-split p:first-child{
+  .two-split figure:first-child, .two-split p:first-child{
     padding-right:15px;
     padding-left:30px;
     float:left;
   }
-  .two-split img:last-child, .two-split p:last-child{
+  .two-split figure:last-child, .two-split p:last-child{
     padding-left:15px;
     padding-right:30px;
-    /*float:left;*/
   }
 }
 
@@ -58,37 +60,38 @@ section{
   display: block;
   clear:both;
 }
-.three-split img{
+.three-split figure{
   width: 100%;
   height: auto;
   display: block;
   vertical-align: top;
+  padding-bottom: 30px;
 }
+.three-split figure:last-child{
+    padding-bottom: 0;
+  }
 
 @media screen and (min-width: 510px) {
   .three-split{
     display: block;
     clear:both;
   }
-  .three-split p{
-
-  }
-  .three-split img, .three-split p{
+  .three-split figure, .three-split p{
     padding: 0;
     width: 33.33333333%;
     max-width: 33.3333333333%;
     display: inline-block;
   }
-  .three-split img:first-child, .three-split p:first-child{
+  .three-split figure:first-child, .three-split p:first-child{
     padding-left: 30px;
     padding-right: 10px;
     float:left;
   }
-  .three-split img:nth-child(2), .three-split p:nth-child(2){
+  .three-split figure:nth-child(2), .three-split p:nth-child(2){
     padding-right: 20px;
     padding-left: 20px;
   }
-  .three-split img:last-child, .three-split p:last-child{
+  .three-split figure:last-child, .three-split p:last-child{
     padding-right: 30px;
     padding-left: 10px;
     float:right;
