@@ -1,4 +1,9 @@
 @import url('https://fast.fonts.net/cssapi/0d68696d-b196-4505-872e-45c6f2cca7b6.css');
+.mono {
+  font-family: "inconsolata", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: normal;
+}
 body {
   font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
   font-weight: 400;
@@ -53,6 +58,9 @@ h2,
   line-height: 30px;
 }
 .subtitle {
+  font-family: "inconsolata", "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-style: normal;
   padding: 60px 30px 0;
   text-align: center;
   display: block;

@@ -55,12 +55,38 @@ h3,
 
 }
 .subtitle{
+  .mono;
   padding: 60px 30px 0;
-  // margin-top: 60px;
   text-align: center;
   display: block;
-
 }
+
+/* image captions */
+figure {
+  position: relative;
+  img{
+  }
+  figcaption{
+    .mono;
+    position: absolute;
+    bottom: 42px;
+    text-align: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    display: block;
+    text-shadow: 0px 0px 12px #000;
+    right: 0;
+    color: white;
+    line-height: 15px;
+    font-size: 12.5px;
+
+    @media screen and (min-width: 510px){
+      bottom: 15px;
+    }
+  }
+}
+
 
 /* avoid collapsing margins
 you might need this, depending on your design
