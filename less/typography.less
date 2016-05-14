@@ -3,19 +3,17 @@
 
 
 body {
-    font-size: 15px;
-    line-height: 30px;
-    font-family:  'fira-sans-2', "comic sans";
-    font-weight: 600;
-    color: @black;
+  .europa;
+  font-size: 16px;
+  line-height: 30px;
+  color: @black;
 
-    -webkit-font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
-a:link {color: @link-color; text-decoration: none;}
-a:visited {color: @link-color; text-decoration: none;}
-a:hover {color: @link-color-hover; text-decoration: underline; }
-a.active {color: @link-color-hover; text-decoration: underline;}
+a:link {color: @pink; text-decoration: none; border-bottom: 1px solid @pink;}
+a:visited {color: @yellow; text-decoration: none; border-bottom: 1px solid @yellow;}
+a:hover {color: @blue; text-decoration: none; border-bottom: 1px solid @blue;}
 
 p,
 ul,
@@ -38,33 +36,29 @@ p{
 }
 h1,
 .h1-like {
-  font-family: 'fira-sans-2', "comic sans";
+  .europa;
   font-size: 40px;
   line-height: 45px;
-  text-shadow: 0px 2px 12px #000;
 }
 h1.subtitle{
   margin: 0;
 }
 h2,
 .h2-like {
-
+  font-size: 20px;
+  line-height: 30px;
 }
 h3,
 .h3-like {
 
 }
 .subtitle{
-  font-family: 'fira-sans-2', "comic sans";
+  .europa;
   font-size: 16px;
   text-align: center;
   display: block;
 }
 
-.mono{
-  font-family: 'fira-sans-2', "comic sans";
-  font-size: 16px;
-}
 /* avoid collapsing margins
 you might need this, depending on your design
 */
@@ -117,7 +111,7 @@ code,
 pre,
 samp {
     white-space: pre-wrap;
-    font-family: 'fira-sans-2', "comic sans";
+    font-family:  monospace;
 }
 code {
     line-height: 1;

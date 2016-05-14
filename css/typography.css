@@ -5,28 +5,28 @@
 /* What are you, on a imperial star destroyer? */
 @import url('https://fast.fonts.net/cssapi/0d68696d-b196-4505-872e-45c6f2cca7b6.css');
 body {
-  font-size: 15px;
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
   line-height: 30px;
-  font-family: 'fira-sans-2', "comic sans";
-  font-weight: 600;
   color: #333333;
   -webkit-font-smoothing: antialiased !important;
 }
 a:link {
-  color: #7FDD98;
+  color: #F19799;
   text-decoration: none;
+  border-bottom: 1px solid #F19799;
 }
 a:visited {
-  color: #7FDD98;
+  color: #F2A632;
   text-decoration: none;
+  border-bottom: 1px solid #F2A632;
 }
 a:hover {
-  color: #7BD492;
-  text-decoration: underline;
-}
-a.active {
-  color: #7BD492;
-  text-decoration: underline;
+  color: #8DD0DB;
+  text-decoration: none;
+  border-bottom: 1px solid #8DD0DB;
 }
 p {
   max-width: 870px;
@@ -40,23 +40,27 @@ p {
 }
 h1,
 .h1-like {
-  font-family: 'fira-sans-2', "comic sans";
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 40px;
   line-height: 45px;
-  text-shadow: 0px 2px 12px #000;
 }
 h1.subtitle {
   margin: 0;
 }
+h2,
+.h2-like {
+  font-size: 20px;
+  line-height: 30px;
+}
 .subtitle {
-  font-family: 'fira-sans-2', "comic sans";
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   text-align: center;
   display: block;
-}
-.mono {
-  font-family: 'fira-sans-2', "comic sans";
-  font-size: 16px;
 }
 /* avoid collapsing margins
 you might need this, depending on your design
@@ -108,7 +112,7 @@ code,
 pre,
 samp {
   white-space: pre-wrap;
-  font-family: 'fira-sans-2', "comic sans";
+  font-family: monospace;
 }
 code {
   line-height: 1;

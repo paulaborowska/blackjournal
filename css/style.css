@@ -38,12 +38,15 @@ body {
 }
 #site-navigation #logo a:link {
   color: #333333;
+  border-bottom: none;
 }
 #site-navigation #logo a:visited {
   color: #333333;
+  border-bottom: none;
 }
 #site-navigation #logo a:hover {
   text-decoration: none;
+  border-bottom: none;
 }
 #site-navigation nav {
   position: absolute;
@@ -79,14 +82,17 @@ body {
   padding: 15px 0 15px 15px;
 }
 #site-navigation nav ul li a:link {
-  color: #333;
+  color: #333333;
+  border-bottom: none;
 }
 #site-navigation nav ul li a:visited {
-  color: #333;
+  color: #333333;
+  border-bottom: none;
 }
 #site-navigation nav ul li a:hover {
-  color: #7BD492;
+  color: #F19799;
   text-decoration: none;
+  border-bottom: none;
 }
 @media screen and (max-width: 510px) {
   #site-navigation nav ul li a:last-child {
@@ -100,7 +106,6 @@ body {
   min-height: 300px;
 }
 .hero-image .bg-image {
-  /*background-image: url('../b.jpg');*/
   background-position: center center;
   background-size: cover;
   height: 330px;
@@ -108,14 +113,21 @@ body {
   width: auto;
 }
 .hero-image h1 {
+  font-family: "depot-new-web", "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   width: 100%;
   display: block;
   text-align: center;
   color: #fff;
-  text-shadow: 0px 2px 12px #000;
+  text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.6);
   padding-top: 120px;
 }
 .hero-image h2 {
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
   display: block;
   width: 100%;
   text-align: center;

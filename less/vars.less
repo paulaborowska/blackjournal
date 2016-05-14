@@ -1,29 +1,38 @@
 @mobile: ~"screen and (max-width: 639px)";
 @nonmobile: ~"screen and (min-width: 640px)";
-
-/* tablet vertical */
 @tablet: ~"screen and (min-width: 768px)";
-
-/* small laptop / ipad horizontal */
 @big: ~"screen and (min-width: 1024px)";
-
-/* laptop / desktop full-screen browser */
 @bigger: ~"screen and (min-width: 1192px)";
-
-/* 'venti' desktop full-screen browser */
- @biggest: ~"screen and (min-width: 1280px)";
-
-/* What are you, on a imperial star destroyer? */
- @intergalactic: ~"screen and (min-width: 1380px)";
+@biggest: ~"screen and (min-width: 1280px)";
+@intergalactic: ~"screen and (min-width: 1380px)";
 
 
-@link-color: @green;
-@link-color-hover: @light-green;
-@light-green: #7BD492;
-@green: #7FDD98;
+@blue: #8DD0DB;
+@pink: #F19799;
 @black: #333333;
+@yellow: #F2A632;
 
 
 .max-width() { max-width: 1230px; }
 .no-margin() { margin: 0px; }
 .no-padding() { paddin: 0; }
+
+
+@body-font: "comic sans ms";
+
+.europa() {
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.depot-new-web() {
+  font-family: "depot-new-web", "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.depot-new-web-bold() {
+  font-family: "depot-new-web", "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
