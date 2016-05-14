@@ -31,7 +31,13 @@ p {
   /* .centered */
   margin-right: auto;
   /* .centered */
-  padding: 0 30px;
+  padding: 30px 30px;
+}
+.padding-top {
+  padding-top: 30px;
+}
+.padding-bottom {
+  padding-bottom: 30px;
 }
 h1,
 .h1-like {
@@ -47,7 +53,7 @@ h2,
   line-height: 30px;
 }
 .subtitle {
-  margin-top: 60px;
+  padding: 60px 30px 0;
   text-align: center;
   display: block;
 }
