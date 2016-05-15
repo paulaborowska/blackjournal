@@ -8,3 +8,7 @@
   background-image: url('../cities/the-hague/DSC_00351.jpg');
   background-position: center 80%;
 }
+#guadalupe .hero-image .bg-image {
+  background-image: url('../cities/guadalupe/DSC_0304.jpg');
+  background-position: center bottom;
+}
