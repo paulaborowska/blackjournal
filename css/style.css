@@ -148,12 +148,8 @@ body {
   }
 }
 @media screen and (min-width: 1230px) {
-  .move-down {
-    margin-top: 645px;
-  }
   .hero-image {
     min-height: 570px;
-    position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
