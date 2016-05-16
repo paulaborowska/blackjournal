@@ -91,7 +91,12 @@ figure figcaption {
   }
 }
 .link-list ul {
-  padding: 60px 180px;
+  padding: 30px;
+}
+@media screen and (min-width: 510px) {
+  .link-list ul {
+    padding: 60px 180px;
+  }
 }
 .link-list ul li {
   font-family: "Andale Mono", "inconsolata", "Courier New", Courier, monospace;
