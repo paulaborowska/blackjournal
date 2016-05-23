@@ -16,6 +16,8 @@ section{
   margin-right: 0;
   display: block;
   clear: both;
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
 /* 2 photo split */
@@ -112,13 +114,33 @@ section{
   }
 }
 
+@media screen and (min-width: 510px) {
+  .tall-short-short {
+    .left{
+      width: 50%;
+      float:left;
+      padding-right: 15px;
+
+      figure{
+        height: 828px; // temp fix 
+        overflow: hidden;
+      }
+    }
+    .right{
+      width: 50%;
+      padding-left: 15px;
+      figure:first-child img{
+        padding-bottom: 15px;
+      }
+      figure:last-child img{
+        padding-top: 15px;
+      }
+    }
+  }
+}
+
 
 /* Aditional styling */
-section{
-  clear: both;
-  margin-top:30px;
-  margin-bottom:30px;
-}
 .right{
   float: right;
 }

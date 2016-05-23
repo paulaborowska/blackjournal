@@ -19,6 +19,8 @@ section {
   margin-right: 0;
   display: block;
   clear: both;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /* 2 photo split */
 @media screen and (min-width: 510px) {
@@ -122,12 +124,28 @@ section {
     padding-right: 50px;
   }
 }
-/* Aditional styling */
-section {
-  clear: both;
-  margin-top: 30px;
-  margin-bottom: 30px;
+@media screen and (min-width: 510px) {
+  .tall-short-short .left {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+  }
+  .tall-short-short .left figure {
+    height: 828px;
+    overflow: hidden;
+  }
+  .tall-short-short .right {
+    width: 50%;
+    padding-left: 15px;
+  }
+  .tall-short-short .right figure:first-child img {
+    padding-bottom: 15px;
+  }
+  .tall-short-short .right figure:last-child img {
+    padding-top: 15px;
+  }
 }
+/* Aditional styling */
 .right {
   float: right;
 }
