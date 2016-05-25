@@ -118,6 +118,9 @@ section {
   }
 }
 @media screen and (min-width: 510px) {
+  .tall-short-short {
+    height: 828px;
+  }
   .tall-short-short .left {
     width: 50%;
     float: left;
