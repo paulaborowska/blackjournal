@@ -110,6 +110,70 @@ section{
   }
 }
 
+/* */
+.three-split__with-links {
+  margin-top: 30px;
+  display: block;
+}
+.three-split__with-links figcaption {
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px; /**/
+  line-height: 45px;
+  text-align: center;
+}
+
+.three-split__with-links a:hover {
+  figure{
+    background: @blue;
+
+    img{
+      opacity: 0.25;
+    }
+    figcaption{
+      text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+
+@media screen and (min-width: 510px) {
+  .three-split__with-links li {
+    padding: 0;
+    width: 33.33333333%;
+    max-width: 33.3333333333%;
+  }
+  .three-split__with-links li figure {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .three-split__with-links .first {
+    padding-right: 20px;
+    float: left;
+    figcaption{
+      padding: 0;
+    }
+  }
+  .three-split__with-links .second {
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    figcaption{
+      padding: 0;
+    }
+  }
+  .three-split__with-links .third {
+    padding-left: 20px;
+    float: left;
+    figcaption{
+      padding: 0;
+    }
+  }
+
+
+}
+
 @media screen and (min-width: 510px) {
   .tall-short-short {
     height: 828px;

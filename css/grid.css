@@ -96,7 +96,7 @@ section {
   }
   .three-split figure:first-child figcaption,
   .three-split p:first-child figcaption {
-    padding-right: 30px;
+    padding-right: 40px;
   }
   .three-split figure:nth-child(2),
   .three-split p:nth-child(2) {
@@ -115,6 +115,62 @@ section {
   .three-split figure:last-child figcaption,
   .three-split p:last-child figcaption {
     padding-right: 20px;
+  }
+}
+/* */
+.three-split__with-links {
+  margin-top: 30px;
+  display: block;
+}
+.three-split__with-links figcaption {
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  /**/
+  line-height: 45px;
+  text-align: center;
+}
+.three-split__with-links a:hover figure {
+  background: #8DD0DB;
+}
+.three-split__with-links a:hover figure img {
+  opacity: 0.25;
+}
+.three-split__with-links a:hover figure figcaption {
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width: 510px) {
+  .three-split__with-links li {
+    padding: 0;
+    width: 33.33333333%;
+    max-width: 33.3333333333%;
+  }
+  .three-split__with-links li figure {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .three-split__with-links .first {
+    padding-right: 20px;
+    float: left;
+  }
+  .three-split__with-links .first figcaption {
+    padding: 0;
+  }
+  .three-split__with-links .second {
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+  }
+  .three-split__with-links .second figcaption {
+    padding: 0;
+  }
+  .three-split__with-links .third {
+    padding-left: 20px;
+    float: left;
+  }
+  .three-split__with-links .third figcaption {
+    padding: 0;
   }
 }
 @media screen and (min-width: 510px) {
