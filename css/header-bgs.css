@@ -4,6 +4,7 @@
 #about .hero-image .bg-image {
   background-image: url('../about/IMG_2415.jpg');
 }
+
 #the-hague .hero-image .bg-image {
   background-image: url('../cities/the-hague/DSC_00351.jpg');
   background-position: center 80%;
@@ -11,4 +12,20 @@
 #guadalupe .hero-image .bg-image {
   background-image: url('../cities/guadalupe/DSC_0304.jpg');
   background-position: center bottom;
+}
+#new-york-city .hero-image .bg-image {
+  background-image: url('../cities/new-york-city/DSC_0859.jpg');
+  background-position: center center;
+}
+#bermuda .hero-image .bg-image {
+  background-image: url('../cities/bermuda/IMG_2623.jpg');
+  background-position: center center;
+}
+#la-paz .hero-image .bg-image {
+  background-image: url('../cities/la-paz/30AD3E12-9EAA-4C9C-A9AD-677CEED8D29F.jpg');
+  background-position: center center;
+}
+#ilhabela .hero-image .bg-image {
+  background-image: url('../cities/ilhabela/IMG_2404.jpg');
+  background-position: center center;
 }
