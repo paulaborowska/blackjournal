@@ -153,6 +153,15 @@ body {
   display: block;
   color: #fff;
 }
+.hero-image .hero-text.with-shadow .heading {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.75);
+}
+.hero-image .hero-text.with-shadow h1 {
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.hero-image .hero-text.with-shadow hr {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+}
 @media screen and (min-width: 570px) {
   .hero-image {
     min-height: 570px;
