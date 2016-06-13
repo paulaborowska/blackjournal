@@ -190,3 +190,40 @@ body {
 /* inputs */
 /* Firefox 18- */
 /* Firefox 19+ */
+/* Index grid */
+.three-split__with-links figcaption {
+  font-family: 'Europa', "Avenir Next", Helvetica, Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  /**/
+  line-height: 45px;
+  text-align: center;
+}
+.three-split__with-links a:hover figure {
+  background: #8DD0DB;
+}
+.three-split__with-links a:hover figure img {
+  opacity: 0.25;
+}
+.three-split__with-links a:hover figure figcaption {
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+.three-split__with-links figcaption {
+  text-shadow: none;
+}
+.three-split__with-links hr {
+  width: 150px;
+  margin: 0 auto;
+  height: 3px;
+  background: white;
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 4px;
+}
+.three-split__with-links .with-shadow figcaption {
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+.three-split__with-links .with-shadow hr {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}

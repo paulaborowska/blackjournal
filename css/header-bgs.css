@@ -6,9 +6,26 @@
 }
 
 #the-hague .hero-image .bg-image {
-  background-image: url('../cities/the-hague/DSC_0035.jpg');
-  background-position: center 80%;
+  background-image: url('../cities/the-hague/phone/DSC_0061.jpg');
+  background-position: center center;
 }
+
+@media screen and (min-width: 570px) {
+  #the-hague .hero-image .bg-image {
+    background-image: url('../cities/the-hague/tablet/DSC_0061.jpg');
+  }
+}
+@media screen and (min-width: 810px) {
+  #the-hague .hero-image .bg-image {
+    background-image: url('../cities/the-hague/laptop/DSC_0061.jpg');
+  }
+}
+@media screen and (min-width: 1230px) {
+  #the-hague .hero-image .bg-image {
+    background-image: url('../cities/the-hague/desktop/DSC_0061.jpg');
+  }
+}
+
 #guadalupe .hero-image .bg-image {
   background-image: url('../cities/guadalupe/DSC_0304.jpg');
   background-position: center bottom;
