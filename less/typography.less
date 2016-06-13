@@ -61,13 +61,20 @@ h3,
   display: block;
 }
 
+::selection { /* WebKit/Blink Browsers */
+  background: #F8CBCC; /* pink at 50% opacity */
+}
+::-moz-selection { /* Gecko Browsers */
+  background: #F8CBCC; /* pink at 50% opacity */
+}
+
 /* image captions */
 figure {
   position: relative;
 
   img{
   }
-  
+
   figcaption{
     .mono;
     position: absolute;

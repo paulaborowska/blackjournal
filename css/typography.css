@@ -64,6 +64,16 @@ h2,
   text-align: center;
   display: block;
 }
+::selection {
+  /* WebKit/Blink Browsers */
+  background: #F8CBCC;
+  /* pink at 50% opacity */
+}
+::-moz-selection {
+  /* Gecko Browsers */
+  background: #F8CBCC;
+  /* pink at 50% opacity */
+}
 /* image captions */
 figure {
   position: relative;
