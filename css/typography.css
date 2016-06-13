@@ -37,11 +37,14 @@ p {
   /* .centered */
   padding: 30px 30px;
 }
-.padding-top {
-  padding-top: 30px;
-}
-.padding-bottom {
-  padding-bottom: 30px;
+@media screen and (max-width: 510px) {
+  p {
+    padding: 0 30px;
+    margin-bottom: 0;
+  }
+  p.subtitle {
+    padding-top: 0;
+  }
 }
 h1,
 .h1-like {
